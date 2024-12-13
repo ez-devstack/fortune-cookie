@@ -4,9 +4,9 @@ using BTCPayServer.Abstractions.Services;
 using BTCPayServer.Plugins.Template.Services;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace BTCPayServer.Plugins.FortuneCookiePlugin;
+namespace BTCPayServer.Plugins.Template;
 
-public class FortuneCookiePlugin : BaseBTCPayServerPlugin
+public class Plugin : BaseBTCPayServerPlugin
 {
     public override IBTCPayServerPlugin.PluginDependency[] Dependencies { get; } =
     {
